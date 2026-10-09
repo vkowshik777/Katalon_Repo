@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SSNMART_LOGIN_001</name>
+   <tag>SSNMART</tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>46fbb420-17e0-47a7-9626-d6b5aa45891e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6f41b838-56f0-41af-8787-3bdf7da7d612</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>895202c2-5b1c-4145-9f03-e938f0a68dec</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Uat_avaloq34'</defaultValue>
+      <description></description>
+      <id>6f41b838-56f0-41af-8787-3bdf7da7d612</id>
+      <masked>false</masked>
+      <name>Username_SSN</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pass@888'</defaultValue>
+      <description></description>
+      <id>895202c2-5b1c-4145-9f03-e938f0a68dec</id>
+      <masked>false</masked>
+      <name>Password_SSN</name>
+   </variable>
+</TestCaseEntity>
