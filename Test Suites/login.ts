@@ -48,4 +48,23 @@
          <variableId>8d78ebff-ddec-4f0d-8515-425f85a48fad</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>9115674a-9449-4aaf-a408-d5aa96ad2fb1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SSNMART_LOGIN_001</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6f41b838-56f0-41af-8787-3bdf7da7d612</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>895202c2-5b1c-4145-9f03-e938f0a68dec</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
