@@ -38,15 +38,5 @@ WebUI.click(findTestObject('Sample SSNMART login/Page_SSN Mart/a_Start Shopping'
 
 WebUI.click(findTestObject('Sample SSNMART login/Page_SSN Mart/button_Add to Cart'))
 
-WebUI.click(findTestObject('Sample SSNMART login/Page_SSN Mart/span_Cart'))
-
-WebUI.rightClick(findTestObject('Sample SSNMART login/Page_SSN Mart/img_SSN Mart'))
-
-WebUI.click(findTestObject('Sample SSNMART login/Page_SSN Mart/div_Samsung Galaxy S24Price_ 31199-1Remove'))
-
-WebUI.click(findTestObject('Sample SSNMART login/Page_SSN Mart/div_Your CartSamsung Galaxy S24Price_ 31199-1R'))
-
 WebUI.closeBrowser()
-
-WebUI.scrollFromViewportOffset(0, 0, 0, 0)
 
