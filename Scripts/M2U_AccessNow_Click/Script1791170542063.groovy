@@ -32,7 +32,7 @@ WebUI.waitForElementClickable(findTestObject('M2U_Private_AccessNow/Page_Maybank
 
 WebUI.setText(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/input_Input your password here'), Password)
 
-WebUI.waitForElementClickable(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/button_LOGIN'))
+WebUI.waitForElementClickable(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/button_LOGIN'), 30)
 
 WebUI.click(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/button_LOGIN'))
 
