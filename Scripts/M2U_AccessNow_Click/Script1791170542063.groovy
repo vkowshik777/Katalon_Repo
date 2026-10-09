@@ -24,27 +24,27 @@ WebUI.navigateToUrl('https://m2umobilesit.maybank.com.my/cgi-bin/bvsitUI3/m2u/co
 
 WebUI.setText(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/input_My Username'), Username)
 
-WebUI.click(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/button_button'))
+WebUI.click(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/button_button'), 30)
 
-WebUI.click(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/button_YES'))
+WebUI.click(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/button_YES'), 30)
 
 WebUI.waitForElementClickable(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/input_Input your password here'), 
     0)
 
 WebUI.setText(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/input_Input your password here'), Password)
 
-WebUI.waitForElementClickable(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/button_LOGIN'), 0)
+WebUI.waitForElementClickable(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/button_LOGIN'))
 
 WebUI.click(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/button_LOGIN'))
 
-WebUI.waitForElementClickable(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/div_WEALTH'), 0)
+WebUI.waitForElementClickable(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/div_WEALTH'), 30)
 
-WebUI.click(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/div_WEALTH'))
+WebUI.click(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/div_WEALTH'), 30)
 
 WebUI.waitForElementClickable(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/button_ACCESS NOW'), 
-    0)
+    30)
 
-WebUI.click(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/button_ACCESS NOW'))
+WebUI.click(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/button_ACCESS NOW'), 30)
 
 WebUI.closeBrowser()
 
