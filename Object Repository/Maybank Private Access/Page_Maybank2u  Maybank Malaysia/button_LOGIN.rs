@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_ACCESS NOW</name>
+   <name>button_LOGIN</name>
    <tag></tag>
-   <elementGuidId>1e6b8c67-af11-498a-ad3e-9ed666bb6ae5</elementGuidId>
+   <elementGuidId>4c024f88-bed8-42da-b8d2-e8785394b0b6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>.TotalMarketValue---containerFluid---McLQZ .btn-sm</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @class = 'btn btn-success btn btn-default' and (text() = 'LOGIN' or . = 'LOGIN')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' TotalMarketValue---containerFluid---McLQZ ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-sm ')]</value>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.btn</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;ACCESS NOW&quot;i]</value>
+         <value>internal:role=button[name=&quot;LOGIN&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>459a0c21-8335-4317-a96d-99ea4ead7343</webElementGuid>
+      <webElementGuid>8999e5fa-0c81-4e57-875e-2c235fa2248b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,54 +41,54 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5e084922-3935-49f5-81e3-f93547773933</webElementGuid>
+      <webElementGuid>07bd4b51-6fd8-4828-9ce6-eb330a148aa9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-success btn-sm btn btn-default</value>
-      <webElementGuid>9a3cef68-dcd4-4450-aecc-8d7204cd7f80</webElementGuid>
+      <value>btn btn-success btn btn-default</value>
+      <webElementGuid>df258c52-d9b0-409f-9949-3124ccc8ab7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>ACCESS NOW</value>
-      <webElementGuid>d64e4bb1-54f1-41e4-8e75-c22f66f0217e</webElementGuid>
+      <value>LOGIN</value>
+      <webElementGuid>f3b3a30b-a710-4970-b682-59217ff2826d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-5f43e38e5277e6589c40fa08734d5893</value>
-      <webElementGuid>f25f2c0a-dda5-46ed-b028-daf93ff52a60</webElementGuid>
+      <value>md5.v1-5889e8f4ab8798d244ecbbc51aa6e324</value>
+      <webElementGuid>2b80b811-4234-48c7-b253-6304a47b7c83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' TotalMarketValue---containerFluid---McLQZ ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-sm ')]</value>
-      <webElementGuid>05a13b6c-d3af-40d9-ada6-68ef77de8a8a</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
+      <webElementGuid>f07ff4d5-a2e8-4903-b7b9-d6854796e9af</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' TotalMarketValue---containerFluid---McLQZ ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-sm ')]</value>
-      <webElementGuid>e85f4728-ab6b-4d9f-b212-2d0e91fb379c</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
+      <webElementGuid>efaf0479-6a8e-4a3f-9b24-0918379fc044</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'ACCESS NOW' or . = 'ACCESS NOW')]</value>
-      <webElementGuid>bc601fe0-bdff-4c5b-a66b-a3ab1041801a</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'LOGIN' or . = 'LOGIN')]</value>
+      <webElementGuid>9673e701-702d-4761-929d-241d4ecb4585</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

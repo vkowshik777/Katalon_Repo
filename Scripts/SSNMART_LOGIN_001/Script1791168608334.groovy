@@ -22,21 +22,15 @@ WebUI.openBrowser(null)
 
 WebUI.navigateToUrl('https://ssnmart.netlify.app/')
 
-WebUI.click(findTestObject('Sample SSNMART login/Page_SSN Mart/span_Login'))
+WebUI.click(findTestObject('SSN page login/Page_SSN Mart/span_Login'))
 
-WebUI.setText(findTestObject('Sample SSNMART login/Page_SSN Mart/input_Username'), 'admin')
+WebUI.setText(findTestObject('SSN page login/Page_SSN Mart/input_Username'), 'admin')
 
-WebUI.setEncryptedText(findTestObject('Sample SSNMART login/Page_SSN Mart/input_Password'), 'RAIVpflpDOg=')
+WebUI.setEncryptedText(findTestObject('SSN page login/Page_SSN Mart/input_Password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.click(findTestObject('Sample SSNMART login/Page_SSN Mart/button_login-button'))
+WebUI.click(findTestObject('SSN page login/Page_SSN Mart/button_login-button'))
 
-WebUI.setEncryptedText(findTestObject('Sample SSNMART login/Page_SSN Mart/input_Password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.click(findTestObject('SSN page login/Page_SSN Mart/a_Start Shopping'))
 
-WebUI.click(findTestObject('Sample SSNMART login/Page_SSN Mart/button_login-button'))
-
-WebUI.click(findTestObject('Sample SSNMART login/Page_SSN Mart/a_Start Shopping'))
-
-WebUI.click(findTestObject('Sample SSNMART login/Page_SSN Mart/button_Add to Cart'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('SSN page login/Page_SSN Mart/button_Add to Cart'))
 

@@ -22,27 +22,22 @@ WebUI.openBrowser(null)
 
 WebUI.navigateToUrl('https://m2umobilesit.maybank.com.my/cgi-bin/bvsitUI3/m2u/common/login.do')
 
-WebUI.setText(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/input_My Username'), Username)
+WebUI.setText(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/input_My Username'), Username)
 
-WebUI.click(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/button_button'))
+WebUI.click(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/img_img'))
 
-WebUI.click(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/button_YES'))
+WebUI.click(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/button_YES'))
 
-WebUI.waitForElementClickable(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/input_Input your password here'), 30)
+WebUI.setText(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/input_Input your password here'), 
+    Password)
 
-WebUI.setText(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/input_Input your password here'), Password)
+WebUI.click(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/button_LOGIN'))
 
-WebUI.waitForElementClickable(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/button_LOGIN'), 30)
+WebUI.waitForElementVisible(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/div_WEALTH'), 30)
 
-WebUI.click(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/button_LOGIN'))
+WebUI.click(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/div_WEALTH'))
 
-WebUI.waitForElementClickable(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/div_WEALTH'), 30)
+WebUI.waitForElementVisible(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/h5_ACCESS NOW'), 30)
 
-WebUI.click(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/div_WEALTH'))
-
-WebUI.waitForElementClickable(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/button_ACCESS NOW'), 30)
-
-WebUI.click(findTestObject('M2U_Private_AccessNow/Page_Maybank2u  Maybank Malaysia/button_ACCESS NOW'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/h5_ACCESS NOW'))
 

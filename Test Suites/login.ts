@@ -14,20 +14,13 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>c61bc5a4-702d-4f90-98f0-e3fdd1513981</testSuiteGuid>
    <testCaseLink>
-      <guid>d7ec1a97-79b7-43ef-b713-45562460c53b</guid>
+      <guid>4be32308-7779-481f-90fc-d5e79e218672</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <iterationNameVariable>
-         <defaultValue>''</defaultValue>
-         <description></description>
-         <id>42f71f8a-4271-489a-898d-82405991fdc4</id>
-         <masked>false</masked>
-         <name>Username</name>
-      </iterationNameVariable>
-      <testCaseId>Test Cases/M2U_AccessNow_Click</testCaseId>
+      <testCaseId>Test Cases/Private Access Click</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>f0dd8070-b62e-4815-8cc2-c6ad23d37f1d</id>
+         <id>3d7d51fa-d39a-4d8c-8161-968935c35b50</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -36,20 +29,20 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>f0dd8070-b62e-4815-8cc2-c6ad23d37f1d</testDataLinkId>
+         <testDataLinkId>3d7d51fa-d39a-4d8c-8161-968935c35b50</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Username</value>
-         <variableId>42f71f8a-4271-489a-898d-82405991fdc4</variableId>
+         <variableId>abc10f70-6516-4610-bed4-f63d4e3dae14</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f0dd8070-b62e-4815-8cc2-c6ad23d37f1d</testDataLinkId>
+         <testDataLinkId>3d7d51fa-d39a-4d8c-8161-968935c35b50</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Password</value>
-         <variableId>8d78ebff-ddec-4f0d-8515-425f85a48fad</variableId>
+         <variableId>5bb6b3c6-0064-4c0c-82de-1df8d40604c2</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9115674a-9449-4aaf-a408-d5aa96ad2fb1</guid>
+      <guid>f9e4b273-4a12-42f6-be33-9a15c2e8b221</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SSNMART_LOGIN_001</testCaseId>

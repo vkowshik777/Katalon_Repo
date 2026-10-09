@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_YES</name>
+   <name>a_Start Shopping</name>
    <tag></tag>
-   <elementGuidId>fcd6af36-a8a6-4225-b3ca-6027a31b5134</elementGuidId>
+   <elementGuidId>3c1d383c-18c3-4d54-889d-01e506628ed5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>.btn-success</value>
+         <value>.btn-shop</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-success ')]</value>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-shop ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;YES&quot;i]</value>
+         <value>internal:role=link[name=&quot;🛍️ Start Shopping&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,63 +28,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>5d21484f-e1a5-4328-9060-f59b742296a4</webElementGuid>
+      <value>a</value>
+      <webElementGuid>2dce1e32-0569-44d9-822c-4d9bd4defc43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>170e9717-9a93-4d08-b6d4-ad810c75a9e6</webElementGuid>
+      <value>/products</value>
+      <webElementGuid>be5bfd7c-fdad-48fa-9468-a805d08eb842</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-success btn btn-default</value>
-      <webElementGuid>12b362a0-50be-4cfa-8c97-3602873dce67</webElementGuid>
+      <value>btn-shop</value>
+      <webElementGuid>606c5e3f-cb6f-4d61-887a-096a89b59dc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>YES</value>
-      <webElementGuid>d706148d-c04b-4a45-b1a1-0d83b9e85d16</webElementGuid>
+      <value>🛍️ Start Shopping</value>
+      <webElementGuid>0df61605-6d4b-41bb-aad5-ae373583da3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-6847d50e87a720299031d27d8486b8d4</value>
-      <webElementGuid>9aedf089-832d-44ee-bf01-8a09665b54f1</webElementGuid>
+      <value>md5.v1-75db44407cdda370d2116febe65cb1de</value>
+      <webElementGuid>43bfface-11f3-4d55-83b3-63bdcb3b9e43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-success ')]</value>
-      <webElementGuid>77b2d47a-5abe-4cea-94c0-900d3a0c25c2</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-shop ')]</value>
+      <webElementGuid>31b9cb01-5fb0-42d4-846d-dff514075ae5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-success ')]</value>
-      <webElementGuid>8c13da76-6349-4d45-926b-28a2c831d350</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-shop ')]</value>
+      <webElementGuid>124087a3-1390-4a81-b874-8c467415952b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'YES' or . = 'YES')]</value>
-      <webElementGuid>4951959a-3e57-4d2e-859f-e9ab5085c086</webElementGuid>
+      <value>//a[@href = '/products' and (text() = '🛍️ Start Shopping' or . = '🛍️ Start Shopping')]</value>
+      <webElementGuid>1dafe25d-f0c7-49ec-9f33-1d38f08dbf81</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_WEALTH</name>
+   <name>span_Login</name>
    <tag></tag>
-   <elementGuidId>805ea045-ec0d-4ef1-b478-72ef97b08560</elementGuidId>
+   <elementGuidId>27c90be8-87dd-4d3d-a158-eaa8a56e1d54</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div:nth-child(2) > div:nth-child(5) div div div</value>
+         <value>[href=&quot;\/login&quot;] span</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[(name() = 'div') and (position() = 2)]/*[(name() = 'div') and (position() = 5)]//div//div//div</value>
+         <value>//*[@href = '/login']//span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;WEALTH&quot;i >> nth=0</value>
+         <value>internal:role=link[name=&quot;Login&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,55 +28,47 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>becda4d7-a4cb-4977-ab87-eb6b2703b71f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>Navigation---typeName---3H3nF</value>
-      <webElementGuid>5b801cff-925c-4201-a1f0-4ff1585a1b57</webElementGuid>
+      <value>span</value>
+      <webElementGuid>4e8718c8-46fc-49ad-9d6b-520315b99d73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>WEALTH</value>
-      <webElementGuid>d0c2deb5-94d8-4a0d-9f38-a0bd765c1c91</webElementGuid>
+      <value>Login</value>
+      <webElementGuid>5abde92a-b823-406b-805b-a0af64f62feb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-47b9414925f88ad376d38821dec72c93</value>
-      <webElementGuid>4b50df4a-2518-460d-a294-1efe21542ae3</webElementGuid>
+      <value>md5.v1-389d91e37e7f897e75d6681acec6ef3e</value>
+      <webElementGuid>7229d8b9-63a7-48e0-8968-5af3f013c7af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[(name() = 'div') and (position() = 2)]/*[(name() = 'div') and (position() = 5)]//div//div//div</value>
-      <webElementGuid>b844acaa-f881-476b-aa52-8ce543e1e658</webElementGuid>
+      <value>//*[@href = '/login']//span</value>
+      <webElementGuid>0760262e-f9b8-419d-a3bf-71eda0b11739</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[(name() = 'div') and (position() = 2)]/*[(name() = 'div') and (position() = 5)]//div//div//div</value>
-      <webElementGuid>73f87411-a1ed-45fe-868a-a64e8a4505b0</webElementGuid>
+      <value>//*[@href = '/login']//span</value>
+      <webElementGuid>3f460b10-f554-4923-b13a-bbccb40d12c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'WEALTH' or . = 'WEALTH')]</value>
-      <webElementGuid>593e7623-9c2a-40f9-90bf-1c435797be3f</webElementGuid>
+      <value>//span[(text() = 'Login' or . = 'Login')]</value>
+      <webElementGuid>c80e0719-ae1b-4ba6-915a-3bddb27c6f4d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

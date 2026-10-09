@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_img</name>
+   <tag></tag>
+   <elementGuidId>c93714be-847b-43ef-82e2-8b21d004bebb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@src = '/static/icons/lock.svg']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[src=&quot;\/static\/icons\/lock\.svg&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.LoginUsername---login-btn-icon---2x13t > img</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>ff178cfc-128b-4560-adf0-212353992222</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/static/icons/lock.svg</value>
+      <webElementGuid>222738fc-c807-43cb-bf0b-31e8a0adce35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-6931e3c0efd8bfa259c07272aa0211a6</value>
+      <webElementGuid>2a689c96-3cea-4879-a386-bdf79c3c1a15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@src = '/static/icons/lock.svg']</value>
+      <webElementGuid>1585114a-6444-4466-b389-cbff334fc7c9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@src = '/static/icons/lock.svg']</value>
+      <webElementGuid>d29d6f25-e434-4153-be15-54f22601d397</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/static/icons/lock.svg']</value>
+      <webElementGuid>f9e66e2b-4620-4891-974e-7020f718850d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

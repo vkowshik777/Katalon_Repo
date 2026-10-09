@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_button</name>
+   <name>input_Username</name>
    <tag></tag>
-   <elementGuidId>934ebbe4-420a-405c-b330-1496c08ae0a8</elementGuidId>
+   <elementGuidId>b49a8f4a-9ede-491e-94bd-dea769b85a87</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>[name=&quot;button&quot;]</value>
+         <value>[name=&quot;Username&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@name = 'button']</value>
+         <value>//*[@name = 'Username']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;LOGIN&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Username&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,71 +28,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>6681f510-1794-4da0-89aa-984473eaa01e</webElementGuid>
+      <value>input</value>
+      <webElementGuid>bb9f820d-fe31-4295-94aa-0310bbfb7eb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>d607f45a-68f7-48e5-98af-f768059b95ba</webElementGuid>
+      <value>Username</value>
+      <webElementGuid>b8f3a8f4-0d68-4a0f-98f4-29022b6d8807</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>966094d0-257c-4798-8aa6-23fb4658044f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>LoginUsername---login-button---1T9o6 LoginUsername---login-input-button---YNezD outseerCollectionTarget &quot;outseerCollectionTarget&quot;</value>
-      <webElementGuid>b534de54-6578-4854-9d17-35ba3f8f13a9</webElementGuid>
+      <value>username</value>
+      <webElementGuid>37cee7da-aef4-4f6f-a0ff-28dd6d0eda28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>LOGIN</value>
-      <webElementGuid>d427c071-5157-4e8a-be31-b9df75ed3d8f</webElementGuid>
+      <value>Username</value>
+      <webElementGuid>224130e8-ce48-41bd-a76a-b332789b4415</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-5a88cb23b170fff3f0cf86c42d4f7226</value>
-      <webElementGuid>83e9844b-7519-4c76-9a6a-a7fe990a73c1</webElementGuid>
+      <value>md5.v1-38352e6e4e905733f59adacb69c10133</value>
+      <webElementGuid>f602d6f2-a611-4ee4-ac4e-e46e48432791</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@name = 'button']</value>
-      <webElementGuid>2c4c664f-9697-43b7-97ac-91919b4e66de</webElementGuid>
+      <value>//*[@name = 'Username']</value>
+      <webElementGuid>daa9eea9-a92d-4c79-8d0e-6134fc68b64f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@name = 'button']</value>
-      <webElementGuid>54a94a94-98ee-4fb5-8308-313c7fa6c6ff</webElementGuid>
+      <value>//*[@name = 'Username']</value>
+      <webElementGuid>4ad1c165-cdc3-4321-b359-0b5eed3317dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@name = 'button' and @type = 'button' and (text() = 'LOGIN' or . = 'LOGIN')]</value>
-      <webElementGuid>7cfd1817-1eb0-4d77-b9fc-6c65117293c8</webElementGuid>
+      <value>//input[@name = 'Username' and @type = 'username' and @placeholder = 'Username']</value>
+      <webElementGuid>c5c85f7c-b187-46e8-b76f-45419f052c5f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

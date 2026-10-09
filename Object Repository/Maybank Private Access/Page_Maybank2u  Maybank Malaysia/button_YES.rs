@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_button</name>
+   <name>button_YES</name>
    <tag></tag>
-   <elementGuidId>83c229c4-3901-45ae-9639-3aaa80e40aba</elementGuidId>
+   <elementGuidId>030745e2-f94c-4f86-b703-9128fc73af9b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>[name=&quot;button&quot;]</value>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-success ')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@name = 'button']</value>
+         <key>CSS</key>
+         <value>.btn-success</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;LOGIN&quot;i]</value>
+         <value>internal:role=button[name=&quot;YES&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>24fa95dd-c79e-40f7-86c9-d238bfe1dbc2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>b0ee837e-05a9-42dd-bf99-111f631b7648</webElementGuid>
+      <webElementGuid>1f8f29e9-4db8-4056-be3c-f8d3f949b7f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,54 +37,54 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>87430a61-d4c1-41c3-9397-a84f63447939</webElementGuid>
+      <webElementGuid>1b38c7ad-fea3-4766-83d3-70cd67494fda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>LoginUsername---login-button---1T9o6 LoginUsername---login-input-button---YNezD outseerCollectionTarget &quot;outseerCollectionTarget&quot;</value>
-      <webElementGuid>91dc2603-0224-4971-b57a-83b8aad310fa</webElementGuid>
+      <value>btn btn-success btn btn-default</value>
+      <webElementGuid>08ea0c9c-3e06-409d-91b8-d222599dcc45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>LOGIN</value>
-      <webElementGuid>1e86bc44-71a9-428b-bdac-e3b394574a6b</webElementGuid>
+      <value>YES</value>
+      <webElementGuid>e5440796-86d9-42f6-b93c-c3424234d783</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-5a88cb23b170fff3f0cf86c42d4f7226</value>
-      <webElementGuid>d6fb930b-c998-4f25-bf86-fabcd6b62d6a</webElementGuid>
+      <value>md5.v1-6847d50e87a720299031d27d8486b8d4</value>
+      <webElementGuid>af75089a-d487-4fa4-a6bf-eb75ed25d302</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@name = 'button']</value>
-      <webElementGuid>ea8d53a2-88eb-4f55-bdb9-2fdbf3e74a30</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-success ')]</value>
+      <webElementGuid>8f296de9-0e9e-4a21-8199-8e9a97b6f71f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@name = 'button']</value>
-      <webElementGuid>9ff6b8d3-e782-4865-8365-d24f4171121a</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-success ')]</value>
+      <webElementGuid>d7bb39d4-fc45-44c8-976a-edf804f4f9cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@name = 'button' and @type = 'button' and (text() = 'LOGIN' or . = 'LOGIN')]</value>
-      <webElementGuid>0d9d9c4b-371d-4450-b20a-dc1e8ae89465</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'YES' or . = 'YES')]</value>
+      <webElementGuid>337f967a-1534-4b5e-a303-12bcbcdeffac</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
