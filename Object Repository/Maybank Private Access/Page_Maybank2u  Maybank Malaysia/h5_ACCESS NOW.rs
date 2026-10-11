@@ -30,7 +30,7 @@
          <value>internal:role=button[name=&quot;ACCESS NOW&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h5</value>
-      <webElementGuid>ec5e88ba-9b24-4d23-aa50-28e54e7f5837</webElementGuid>
+      <webElementGuid>852f202c-b928-40d5-9bb2-c7cb1dc1e1c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>ACCESS NOW</value>
-      <webElementGuid>54099069-ebb3-40b7-bc93-460142c3fbaa</webElementGuid>
+      <webElementGuid>350b6eaa-19ed-4758-afd4-88691e4bda77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-d4b0779af28706b5caca74f39f7acafb</value>
-      <webElementGuid>f0224bd0-7f5a-41c2-8a35-99428836d6e8</webElementGuid>
+      <webElementGuid>516dc6b6-2c3f-4f0a-921b-eb344ec918ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-success ') and contains(concat(' ', normalize-space(@class), ' '), ' btn ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-default ')]//h5</value>
-      <webElementGuid>9baa2023-cff4-4c27-9668-235a49f5dd85</webElementGuid>
+      <webElementGuid>81816c4d-306f-4e78-a866-a431d49095c7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-success ') and contains(concat(' ', normalize-space(@class), ' '), ' btn ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-default ')]//h5</value>
-      <webElementGuid>5ca54f4d-3adf-4d3c-bdfb-19313908ebb8</webElementGuid>
+      <webElementGuid>65cc5a1b-431e-494d-a425-17c39b5e7a72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h5[(text() = 'ACCESS NOW' or . = 'ACCESS NOW')]</value>
-      <webElementGuid>755fb4a9-c555-4a4b-9c8f-f5be4263c7bc</webElementGuid>
+      <webElementGuid>06b3f738-3112-401d-a86a-ab2ab1608429</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

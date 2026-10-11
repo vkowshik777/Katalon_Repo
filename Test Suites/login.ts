@@ -6,7 +6,7 @@
    <isRerun>false</isRerun>
    <mailRecipient>vkowshik007@gmail.com;</mailRecipient>
    <maxConcurrentInstances>1</maxConcurrentInstances>
-   <numberOfRerun>1</numberOfRerun>
+   <numberOfRerun>2</numberOfRerun>
    <orchestration>CLASSIC</orchestration>
    <pageLoadTimeout>10</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
