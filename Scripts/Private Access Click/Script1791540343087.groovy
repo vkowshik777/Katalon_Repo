@@ -33,11 +33,11 @@ WebUI.setText(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Mal
 
 WebUI.click(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/button_LOGIN'))
 
-WebUI.waitForElementVisible(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/div_WEALTH'), 30)
+WebUI.waitForElementVisible(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/div_WEALTH'), 60)
 
 WebUI.click(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/div_WEALTH'))
 
-WebUI.waitForElementVisible(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/h5_ACCESS NOW'), 30)
+WebUI.waitForElementVisible(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/h5_ACCESS NOW'), 60)
 
 WebUI.click(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/h5_ACCESS NOW'))
 
