@@ -4,14 +4,23 @@
    <name>h5_ACCESS NOW</name>
    <tag></tag>
    <elementGuidId>80cf2ea3-51e6-4336-9bc3-454ca52615df</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.btn-sm.btn-success.btn.btn-default h5</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-success ') and contains(concat(' ', normalize-space(@class), ' '), ' btn ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-default ')]//h5[count(. | //*[(text() = 'ACCESS NOW' or . = 'ACCESS NOW')]) = count(//*[(text() = 'ACCESS NOW' or . = 'ACCESS NOW')])]</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-success ') and contains(concat(' ', normalize-space(@class), ' '), ' btn ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-default ')]//h5</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>.btn-sm.btn-success.btn.btn-default h5</value>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +30,7 @@
          <value>internal:role=button[name=&quot;ACCESS NOW&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +38,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h5</value>
-      <webElementGuid>962420c2-9c34-4184-9a75-4731181c9813</webElementGuid>
+      <webElementGuid>ec5e88ba-9b24-4d23-aa50-28e54e7f5837</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>ACCESS NOW</value>
-      <webElementGuid>56b2ab5d-ac24-4571-a561-e1ad2792b780</webElementGuid>
+      <webElementGuid>54099069-ebb3-40b7-bc93-460142c3fbaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +54,15 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-d4b0779af28706b5caca74f39f7acafb</value>
-      <webElementGuid>3cba444b-720b-4929-8efc-c51be57d0e87</webElementGuid>
+      <webElementGuid>f0224bd0-7f5a-41c2-8a35-99428836d6e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-success ') and contains(concat(' ', normalize-space(@class), ' '), ' btn ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-default ')]//h5</value>
-      <webElementGuid>cd3b3cfb-2f2a-4684-a3e7-26ef49781b0b</webElementGuid>
+      <webElementGuid>9baa2023-cff4-4c27-9668-235a49f5dd85</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-success ') and contains(concat(' ', normalize-space(@class), ' '), ' btn ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-default ')]//h5</value>
-      <webElementGuid>b6321d42-0402-4493-a97c-a601c118a87e</webElementGuid>
+      <webElementGuid>5ca54f4d-3adf-4d3c-bdfb-19313908ebb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h5[(text() = 'ACCESS NOW' or . = 'ACCESS NOW')]</value>
-      <webElementGuid>e7a593bd-ddbc-48b9-a2cd-90e25acdb400</webElementGuid>
+      <webElementGuid>755fb4a9-c555-4a4b-9c8f-f5be4263c7bc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
