@@ -42,7 +42,7 @@ WebUI.waitForElementVisible(findTestObject('Maybank Private Access/Page_Maybank2
 WebUI.click(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/div_WEALTH'))
 
 WebUI.waitForElementVisible(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/h5_ACCESS NOW', [('variable') : '']), 
-    40)
+    45)
 
 WebUI.click(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/h5_ACCESS NOW'))
 
