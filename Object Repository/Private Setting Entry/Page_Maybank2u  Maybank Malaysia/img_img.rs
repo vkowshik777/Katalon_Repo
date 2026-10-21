@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_img</name>
+   <tag></tag>
+   <elementGuidId>05b4d234-fda5-45b1-82e0-0e312b01c800</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' bg-avq-white ') and (position() = 2)]//img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.bg-avq-white:nth-child(2) img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[title=&quot;uat_avaloqi6 &amp; kowshik UAT&quot;i] >> internal:role=img</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>0dae8b72-768e-48b7-9dd6-345907b524f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>897c38e6-2743-4230-865e-fb6b08db9ced</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2225%22%20viewBox%3D%220%200%2024%2025%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ccircle%20cx%3D%225.75%22%20cy%3D%2212.5762%22%20r%3D%221.75%22%20fill%3D%22%23171717%22%2F%3E%3Ccircle%20cx%3D%2211.75%22%20cy%3D%2212.5762%22%20r%3D%221.75%22%20fill%3D%22%23171717%22%2F%3E%3Ccircle%20cx%3D%2217.75%22%20cy%3D%2212.5762%22%20r%3D%221.75%22%20fill%3D%22%23171717%22%2F%3E%3C%2Fsvg%3E</value>
+      <webElementGuid>3bc9e0d5-4592-448c-bc10-8e428c5c7133</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-7ea5bac2e23407bcfc23af0d4ce07bde</value>
+      <webElementGuid>8cd00acd-209b-4b28-8a1e-3a5af46d63b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' bg-avq-white ') and (position() = 2)]//img</value>
+      <webElementGuid>6b04ba9f-27df-4433-aefa-73be5f6125ed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' bg-avq-white ') and (position() = 2)]//img</value>
+      <webElementGuid>4a941871-69f3-4620-bbb1-82140f45b564</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2225%22%20viewBox%3D%220%200%2024%2025%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ccircle%20cx%3D%225.75%22%20cy%3D%2212.5762%22%20r%3D%221.75%22%20fill%3D%22%23171717%22%2F%3E%3Ccircle%20cx%3D%2211.75%22%20cy%3D%2212.5762%22%20r%3D%221.75%22%20fill%3D%22%23171717%22%2F%3E%3Ccircle%20cx%3D%2217.75%22%20cy%3D%2212.5762%22%20r%3D%221.75%22%20fill%3D%22%23171717%22%2F%3E%3C%2Fsvg%3E']</value>
+      <webElementGuid>b02b8b7e-3101-4695-8680-f70ab49d346a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

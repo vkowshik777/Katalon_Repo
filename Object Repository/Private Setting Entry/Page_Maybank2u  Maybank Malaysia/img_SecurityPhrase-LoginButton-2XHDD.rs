@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_SecurityPhrase-LoginButton-2XHDD</name>
+   <tag></tag>
+   <elementGuidId>188d90f1-61f2-4860-b941-907dcbbb20a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@src = '/static/icons/foward_arrow_white.svg']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[src=&quot;\/static\/icons\/foward_arrow_white\.svg&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;LOGIN&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>38b58227-cf06-47bb-9bad-2e0e59afbee2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>SecurityPhrase---LoginButton---2XHDD</value>
+      <webElementGuid>340a78db-438d-4dd8-9f0b-51cfde1c92c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/static/icons/foward_arrow_white.svg</value>
+      <webElementGuid>e91de388-f0ad-412a-94b9-6cee43d4433a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-efb2178fba1a68b55067eb6d29ce6fd8</value>
+      <webElementGuid>c4ef5db9-1276-4535-bc9b-b0bf633ffee9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@src = '/static/icons/foward_arrow_white.svg']</value>
+      <webElementGuid>beffc659-d3ec-4366-b307-bf2f019a6f7d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@src = '/static/icons/foward_arrow_white.svg']</value>
+      <webElementGuid>9201216c-9fdc-49f0-a184-e699930db1f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/static/icons/foward_arrow_white.svg']</value>
+      <webElementGuid>97527f61-1908-405e-b66b-fa7d5b76746e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
