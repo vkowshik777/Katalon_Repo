@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Private Setting</name>
+   <tag>Settings</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d7d63956-2728-45fc-adb7-40e1408a9652</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec811fff-5879-4855-9804-cd7a16e4d0f1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>86d58105-6133-4a32-9b48-847dcd36f773</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'uat_avaloqi6'</defaultValue>
+      <description></description>
+      <id>ec811fff-5879-4855-9804-cd7a16e4d0f1</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pass@321'</defaultValue>
+      <description></description>
+      <id>86d58105-6133-4a32-9b48-847dcd36f773</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

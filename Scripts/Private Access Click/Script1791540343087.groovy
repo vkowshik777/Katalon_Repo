@@ -22,22 +22,31 @@ WebUI.openBrowser(null)
 
 WebUI.navigateToUrl('https://m2umobilesit.maybank.com.my/cgi-bin/bvsitUI3/m2u/common/login.do')
 
-WebUI.setText(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/input_My Username'), Username)
+WebUI.setText(findTestObject('Private Transfer L1/Page_Maybank2u  Maybank Malaysia/input_My Username'), 
+    Username)
 
-WebUI.click(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/img_img'))
+WebUI.click(findTestObject('Private Transfer L1/Page_Maybank2u  Maybank Malaysia/button_button'))
 
-WebUI.click(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/button_YES'))
+WebUI.click(findTestObject('Private Transfer L1/Page_Maybank2u  Maybank Malaysia/button_YES'))
 
-WebUI.setText(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/input_Input your password here'), 
+WebUI.setText(findTestObject('Private Transfer L1/Page_Maybank2u  Maybank Malaysia/input_Input your password here'), 
     Password)
 
-WebUI.click(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/button_LOGIN'))
+WebUI.click(findTestObject('Private Transfer L1/Page_Maybank2u  Maybank Malaysia/button_LOGIN'))
 
-WebUI.waitForElementVisible(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/div_WEALTH'), 60)
+WebUI.click(findTestObject('Private Transfer L1/Page_Maybank2u  Maybank Malaysia/div_WEALTH'))
 
-WebUI.click(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/div_WEALTH'))
+WebUI.waitForElementVisible(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/h5_ACCESS NOW'), 45)
 
-WebUI.waitForElementVisible(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/h5_ACCESS NOW'), 60)
+WebUI.click(findTestObject('Private Transfer L1/Page_Maybank2u  Maybank Malaysia/h5_ACCESS NOW'))
 
-WebUI.click(findTestObject('Maybank Private Access/Page_Maybank2u  Maybank Malaysia/h5_ACCESS NOW'))
+WebUI.click(findTestObject('Private Transfer L1/Page_Maybank2u  Maybank Malaysia/img_img'))
+
+WebUI.click(findTestObject('Private Transfer L1/Page_Maybank2u  Maybank Malaysia/div_Fund Transfer'))
+
+WebUI.click(findTestObject('Private Transfer L1/Page_Maybank2u  Maybank Malaysia/button_Please Select'))
+
+WebUI.click(findTestObject('Private Transfer L1/Page_Maybank2u  Maybank Malaysia/span_Private Banking Account'))
+
+WebUI.click(findTestObject('Private Transfer L1/Page_Maybank2u  Maybank Malaysia/button_Close'))
 

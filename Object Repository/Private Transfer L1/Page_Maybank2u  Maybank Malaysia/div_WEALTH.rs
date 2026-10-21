@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_WEALTH</name>
+   <tag></tag>
+   <elementGuidId>87d000d7-0e2f-4aba-865c-87b309d1044b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(name() = 'div') and (position() = 2)]/*[(name() = 'div') and (position() = 5)]//div//div//div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-child(2) > div:nth-child(5) div div div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;WEALTH&quot;i >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3a98423d-8c14-408e-ac6e-059c6b762fa6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Navigation---typeName---3H3nF</value>
+      <webElementGuid>bde58413-c6c5-4f2b-a345-656b19aea7d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>WEALTH</value>
+      <webElementGuid>2654dda3-d150-4823-90c0-ac2229aea3f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-47b9414925f88ad376d38821dec72c93</value>
+      <webElementGuid>70c16fda-5770-44a4-a92d-6f176ae64f20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(name() = 'div') and (position() = 2)]/*[(name() = 'div') and (position() = 5)]//div//div//div</value>
+      <webElementGuid>03e52bba-8b1e-4880-9424-819758652676</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(name() = 'div') and (position() = 2)]/*[(name() = 'div') and (position() = 5)]//div//div//div</value>
+      <webElementGuid>369df575-27ff-4318-b340-e86cac1000c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'WEALTH' or . = 'WEALTH')]</value>
+      <webElementGuid>4a23c8a4-0809-4d16-8fda-961da00fd753</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
